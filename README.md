@@ -14,6 +14,8 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 2. Under "Download" below the R logo, click on "CRAN". You'll have to choose a CRAN mirror, one of many servers that store identical and recent versions of R.
 3. Choose any CRAN mirror located in the US, ideally one geographically close to your location. (Statlib from Carnegie Mellon University in Pittsburgh, PA works well for those located in the Northeastern US.)
 4. After selecting a CRAN mirror, follow the Operating-System appropriate link under "Download and Install R".
+5. Choose the download link appropriate to your Operating System and specific version under "Latest Release". This will download the R Package Installer to your computer.
+6. Save this file (ending in .pkg), open in and follow installation instructions.
 
 ### Installing RStudio
 
