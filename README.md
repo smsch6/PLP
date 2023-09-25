@@ -26,7 +26,16 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 5. Open the .dmg file you downloaded from [Posit](https://posit.co/download/rstudio-desktop/), open it and follow installation instructions.
 
 ## Getting Started: Writing and Running Code in R
-1. Open RStudio. You will always open RStudio to write a program in R
+1. Open RStudio. You will always open RStudio (rather than R itself) to write a program in R.
+2. Create a new script: Click "File" > "New File" > "R Script". The R Script is where you will write your program in R.
+3. Once this script is open, you will see an empty window in the top left. This is where you will write your code in R.
+   - The "Environment" tab in the top right will display variable saved to your Global Environment.
+   - Results of running your script will be displayed in the Console in the lower left corner.
+   - "Files" in the bottom right window displays which files are currently imported and loaded into RStudio.
+   - "Plots" in the bottom right window displays plots produced in your Script.
+   - "Packages" in the bottom right window displays which packages are loaded. To install a new package necessary, search its name in the search bar.
+4. To run your R Script, click "Run" in the top right. There are options to run a single line, a section, or the whole script.
+5. R does not auto-save, so click save often. 
 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
