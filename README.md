@@ -15,12 +15,16 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 3. Choose any CRAN mirror located in the US, ideally one geographically close to your location. (Statlib from Carnegie Mellon University in Pittsburgh, PA works well for those located in the Northeastern US.)
 4. After selecting a CRAN mirror, follow the Operating-System appropriate link under "Download and Install R".
 5. Choose the download link appropriate to your Operating System and specific version under "Latest Release". This will download the R Package Installer to your computer.
-6. Save this file (ending in .pkg), open in and follow installation instructions.
+7. Save this file (ending in .pkg), open in and follow installation instructions.
 
 
 ### Installing RStudio
-1. Open [Posit](https://posit.co/) in an internet browser and click "Download RStudio". 
+1. Open [Posit](https://posit.co/) in an internet browser and click "Download RStudio".
+2. Click "Download RStudio" under "RStudio IDE" to download the free, open-source version of RStudio.
+3. You have already installed R, so skip to step 2 and click the download button for your specific operating system. This downloads the RStudio Installer to your computer.
+4. For Mac Users, go to the app store and download "Xcode". Open the app and allow it access to anything it requests. This is an Integrated Development Environment that allows you to create software on a Mac.
+5. Open the .dmg file you downloaded from [Posit](https://posit.co/download/rstudio-desktop/), open it and follow installation instructions. 
 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
-2. 
+2. [Posit](https://posit.co/)
