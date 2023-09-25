@@ -6,8 +6,8 @@
 3. R is used primarily for statistical analysis and machine learning for data analysis. It is widely used in the fields of Data Science, Bioinformatics, Biostatistics and general data analysis.
 4. R has excellent documentation: [R Documentation](https://www.r-project.org/other-docs.html). Most information about the language, its syntax, and installation can be found here.
 
-## Getting Started
-A simple and effective method of coding in R is through RStudio. RStudio allows users to write in R in a graphical interface, where everything necessary to code in R can be viewed in one window. Both R and RStudio must be installed, and R must be installed first.
+## Installation
+A simple and effective method of coding in R is through RStudio. RStudio allows users to write in R in a graphical interface, where everything necessary to code in R can be viewed in one window. Both R and RStudio must be installed, and R must be installed first. R can be written in VSCode and multiple other platforms, however, RStudio was created specifically for the language and is incredibly simple to use. 
 
 ### Installing R
 1. Open [r-project.org](https://www.r-project.org/) in an internet window.
@@ -23,7 +23,10 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 2. Click "Download RStudio" under "RStudio IDE" to download the free, open-source version of RStudio.
 3. You have already installed R, so skip to step 2 and click the download button for your specific operating system. This downloads the RStudio Installer to your computer.
 4. For Mac Users, go to the app store and download "Xcode". Open the app and allow it access to anything it requests. This is an Integrated Development Environment that allows you to create software on a Mac.
-5. Open the .dmg file you downloaded from [Posit](https://posit.co/download/rstudio-desktop/), open it and follow installation instructions. 
+5. Open the .dmg file you downloaded from [Posit](https://posit.co/download/rstudio-desktop/), open it and follow installation instructions.
+
+## Getting Started: Writing and Running Code in R
+1. Open RStudio. You will always open RStudio to write a program in R
 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
