@@ -19,6 +19,7 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 
 
 ### Installing RStudio
+1. Open [Posit](https://posit.co/) in an internet browser and click "Download RStudio". 
 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
