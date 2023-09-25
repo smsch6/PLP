@@ -17,6 +17,7 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 5. Choose the download link appropriate to your Operating System and specific version under "Latest Release". This will download the R Package Installer to your computer.
 6. Save this file (ending in .pkg), open in and follow installation instructions.
 
+
 ### Installing RStudio
 
 ## Sources
