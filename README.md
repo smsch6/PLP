@@ -4,7 +4,7 @@
 1. The name of this language is R.
 2. R was created by statisticians Robert Gentleman and Ross Ihaka at the University of New Zealand, Auckland. It was developed to address the lack of accessibility to statistical software, specifically the language of S, which was developed in Bell Laboratories as statistical analysis software but became monetized and restricted. R is open-source and free to use unlike its predecessor S. 
 3. R is used primarily for statistical analysis and machine learning for data analysis. It is widely used in the fields of Data Science, Bioinformatics, Biostatistics and general data analysis.
-4. R has excellent documentation: [R Documentation](https://www.r-project.org/other-docs.html). Most information about the language, its syntax, and installation can be found here.
+4. R has excellent documentation. Most information about the language, its syntax, and installation can be found [here](https://www.r-project.org/other-docs.html).
 
 ## Installation
 A simple and effective method of coding in R is through RStudio. RStudio allows users to write in R in a graphical interface, where everything necessary to code in R can be viewed in one window. Both R and RStudio must be installed, and R must be installed first. R can be written in VSCode and multiple other platforms, however, RStudio was created specifically for the language and is incredibly simple to use. 
@@ -35,7 +35,12 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
    - "Plots" in the bottom right window displays plots produced in your Script.
    - "Packages" in the bottom right window displays which packages are loaded. To install a new package necessary, search its name in the search bar.
 4. To run your R Script, click "Run" in the top right. There are options in the drop-down menu to run a single line, a section, or the whole script.
-5. RStudio does not auto-save, so save often. 
+5. To comment out a single line, type a single hashtag before the code. To comment out an entire section of code, type "Ctrl + Shift + C" on Windows and "Command + Shift + C" on MacOS.
+6. RStudio does not auto-save, so save often.
+
+## Resources
+1. [Official Documentation](https://www.r-project.org/other-docs.html)
+2. 
 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
