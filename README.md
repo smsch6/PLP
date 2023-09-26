@@ -39,8 +39,10 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 
 ## Resources
 1. [Official Documentation](https://www.r-project.org/other-docs.html)
-2. 
+2. [RStudio Education](https://education.rstudio.com/learn/beginner/)
+3. [Burns Statistics: Impatient R](https://www.burns-stat.com/documents/tutorials/impatient-r/)
 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
 2. [Posit](https://posit.co/)
+3. [Princeton Research Computing](https://researchcomputing.princeton.edu/education/external-online-resources/R)https://researchcomputing.princeton.edu/education/external-online-resources/R
