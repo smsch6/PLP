@@ -46,4 +46,4 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
 2. [Posit](https://posit.co/)
-3. [Princeton Research Computing](https://researchcomputing.princeton.edu/education/external-online-resources/R)https://researchcomputing.princeton.edu/education/external-online-resources/R
+3. [Princeton Research Computing](https://researchcomputing.princeton.edu/education/external-online-resources/R)
