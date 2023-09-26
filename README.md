@@ -32,8 +32,10 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
    - "Plots" in the bottom right window displays plots produced in your Script.
    - "Packages" in the bottom right window displays which packages are loaded. To install a new package necessary, search its name in the search bar.
 4. To run your R Script, click "Run" in the top right. There are options in the drop-down menu to run a single line, a section, or the whole script.
-5. To comment out a single line, type a single hashtag before the code. To comment out an entire section of code, type "Ctrl + Shift + C" on Windows and "Command + Shift + C" on MacOS.
-6. RStudio does not auto-save, so save often.
+5. To comment out a single line, type a single hashtag (#) before the code.
+   *example: '# print("Hello World")'
+7. To comment out an entire section of code, type "Ctrl + Shift + C" on Windows and "Command + Shift + C" on MacOS.
+8. RStudio does not auto-save, so save often.
 
 ## Resources
 1. [Official Documentation](https://www.r-project.org/other-docs.html)
