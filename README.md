@@ -37,10 +37,11 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 6. To comment out an entire section of code, type "Ctrl + Shift + C" on Windows and "Command + Shift + C" on MacOS.
 7. RStudio does not auto-save, so save often.
 
-## Resources
+## Resources for Learning and Using R
 1. [Official Documentation](https://www.r-project.org/other-docs.html)
 2. [RStudio Education](https://education.rstudio.com/learn/beginner/)
-3. [Burns Statistics: Impatient R](https://www.burns-stat.com/documents/tutorials/impatient-r/)
+3. [Getting Help with R](https://www.r-project.org/help.html)
+4. [Burns Statistics: Impatient R](https://www.burns-stat.com/documents/tutorials/impatient-r/)
 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
