@@ -34,8 +34,8 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
    - "Files" in the bottom right window displays which files are currently imported and loaded into RStudio.
    - "Plots" in the bottom right window displays plots produced in your Script.
    - "Packages" in the bottom right window displays which packages are loaded. To install a new package necessary, search its name in the search bar.
-4. To run your R Script, click "Run" in the top right. There are options to run a single line, a section, or the whole script.
-5. R does not auto-save, so click save often. 
+4. To run your R Script, click "Run" in the top right. There are options in the drop-down menu to run a single line, a section, or the whole script.
+5. RStudio does not auto-save, so save often. 
 
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
