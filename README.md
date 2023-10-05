@@ -7,7 +7,7 @@ The name of this language is R, derived from its predecessor S. R was created by
 A simple and effective method of coding in R is through RStudio. RStudio allows users to write in R in a graphical interface, where everything necessary to code in R can be viewed in one window. Both R and RStudio must be installed, and R must be installed first. R can be written in VSCode and multiple other platforms, however, RStudio was created specifically for the language and is incredibly simple to use. 
 
 ### Installing R 
-1. Open [r-project.org](https://www.r-project.org/) in an internet window. 
+1. Open [r-project.org](https://www.r-project.org/) in an internet window.  
 2. Under "Download" below the R logo, click on "CRAN". You'll have to choose a CRAN mirror, one of many servers that store identical and recent versions of R.
 3. Choose any CRAN mirror located in the US, ideally one geographically close to your location. (Statlib from Carnegie Mellon University in Pittsburgh, PA works well for those located in the Northeastern US.)
 4. After selecting a CRAN mirror, follow the Operating-System appropriate link under "Download and Install R".
