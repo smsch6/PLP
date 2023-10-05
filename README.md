@@ -45,7 +45,7 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 - File names should be clear, concise and end in “.R”. If files need to be run sequentially, they should be named with numbers at the beginning: “_1-my_data.R_”, “_2-my_data.R_”  
 
 
-### Data Types and examples  
+### Data Types and examples   
 -  **Integers**: The Integer function must be evoked to declare an Integer in R: `q = as.integer(6)`
     - To determine whether something is an integer: `is.integer(q)`
 - **Character Data: R's version of Strings**: There are multiple ways to create a string in R.
