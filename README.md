@@ -37,12 +37,75 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 6. To comment out an entire section of code, type "Ctrl + Shift + C" on Windows and "Command + Shift + C" on MacOS.
 7. RStudio does not auto-save, so save often.
 
+### Naming Conventions 
+- R is a case sensitive language; this means that `tree` and `Tree` are different variables, as are `my_Data` and `my_data`.
+- Variable and function names are typically lowercaseper language conventions, however, they do not have to start with lowercase letters to be considered syntactically correct.
+- Multi-word variables should be separated with an underscore: `my_data`. 
+- Spaces should be placed around most infix operators and function calls with the exception of `:`, `::`, and `:::`.
+- File names should be clear, concise and end in “.R”. If files need to be run sequentially, they should be named with numbers at the beginning: “_1-my_data.R_”, “_2-my_data.R_”  
+
+
+### Data Types and examples  
+-  **Integers**: The Integer function must be evoked to declare an Integer in R: `q = as.integer(6)`
+    - To determine whether something is an integer: `is.integer(q)`
+- **Character Data: R's version of Strings**: There are multiple ways to create a string in R.
+    - Use double quotations: `my_string <- "New String!"`
+    - Use single quotations: `my_string <- 'New String!'`
+    - Make an empty string: `my_string <- ""`
+    - Make an empty character vector: `ch_vr <- character(0)
+- **Floating Point Numbers**:
+    - xxxxxxxxxx
+- **Vectors, Arrays and Lists**:
+    - **Vectors** are a one-dimensional list and can contain only one data type. Some examples of creating vectors:
+        - `vector1 <- c(1, 2, 3)`
+        - `vector2 <-  c(10, 20, 30)`
+        - `vector3 <-  c(“abc”, “def”, “gh”)`
+    - **Arrays** are vectors in R that can have multiple dimensions, but can still contain only one data type.
+        - To create a two-dimensional array (using the vectors created above): `array1 <- array(c(vector1, vector2), dim <- c(3,2,2))`
+    - **Lists** are structures that can contain multiple data types in R; they can also contain other data structures such as vectors and arrays.
+        - list1 <- `list(vector1, array1, vector2, 6)`
+- **Dictionaries and Hashmaps**:
+    - **Dictionary Equivalent**: The List structure is used to create the equivalent of a dictionary in R, but “keys” can be assigned to list items so we can index to them. Example:
+        - `plants <- c("desert"="cactus", "mountain"="fern", "tropical"="lime tree")`
+        - adding new pairs to a list dictionary: `plants["sea"] <- "seaweed"`
+
+### General Discussion  
+- R has 21 **keywords**, meaning these words are reserved and cannot be used for naming. Here's a few examples:
+    - `if`, `else`, `while`, `for`, `break`, `next`, `repeat`,` NULL`, `TRUE`, `function`, `Inf`, `NA`, `in`, `NaN`
+- R has very loose **naming rules**, and variables can be named close to anything. See "naming conventions" above, however, for stylistic tips.
+    - Variable names must begin with a letter and can utilize letters, numbers, the dot character(`.`) and underscore(`_`).
+    - Variables cannot begin with numbers or an underscore, but they can start with alphabet letters or a dot character: `.my_data`
+    - If the name begins with a dot character, it may not be followed by a number
+    - Variable names cannot use reserved words.
+- R is **strongly typed**, meaning that certain operations cannot be performed between mixed data types.
+- R is **dynamically typed**, meaning no variable type declaration is required when writing code.
+    - It is also **implicitly typed**, meaning the language is able to deduce some data types based on context and use. Implicitly typed languages are always dynamically typed.
+- R is **interpreted** rather than compiled.
+- Most data types are **immutable** in R, meaning they cannot be modified after creation. Environments, symbols, specials and builtins are mutable in R . 
+    - It's important to note that data frames are not mutable in R.
+    - Some data types appear to be mutable, but R simply makes a new copy.
+- R has 5 categories for **operators**: 
+    - _Arithmetic operators_: for numeric values such as `int`, `float` and `double`.
+        - `+`, `-`, `*`, `/`,` ^`, `%%`, `%/%`
+        - These perform simple arithmetic operations. 
+    - _Assignment operators_: Used to assign a value to a variable
+        - `<-`, `=`, `<<-`, `->>` (
+        - The first two operators assign a variable into the environment. `<-` can be used anywhere, and is more widely used in R. `=` Possesses restrictions.
+        - the latter two are usually used only in functions, and can redefine a pre-assigned value. 
+    - _Comparison operators_: used to compare numeric values
+        - `==`, `!=`, `>`, `<`, `<=`, `>=`
+    - _Logical operators_: for the combination of conditional statements
+        - `&`(AND), `&&`(AND), `|`(OR), `||`(OR), `!`(NOT)
+    - _Miscellaneous operators_:
+        - `:`(sequence numbers), `%in%`(test whether element is in a vector), `%*%`(multiply matrices)
+
+
 ## Resources for Learning and Using R
 1. [Official Documentation](https://www.r-project.org/other-docs.html)
 2. [RStudio Education](https://education.rstudio.com/learn/beginner/)
 3. [Getting Help with R](https://www.r-project.org/help.html)
 4. [Burns Statistics: Impatient R](https://www.burns-stat.com/documents/tutorials/impatient-r/)
-
+   
 ## Sources
 1. [r-project.org/about](https://www.r-project.org/about.html)
 2. [Posit](https://posit.co/)
