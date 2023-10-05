@@ -37,7 +37,7 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 6. To comment out an entire section of code, type "Ctrl + Shift + C" on Windows and "Command + Shift + C" on MacOS.
 7. RStudio does not auto-save, so save often.
 
-### Naming Conventions 
+## Naming Conventions 
 - R is a case sensitive language; this means that `tree` and `Tree` are different variables, as are `my_Data` and `my_data`.
 - Variable and function names are typically lowercaseper language conventions, however, they do not have to start with lowercase letters to be considered syntactically correct.
 - Multi-word variables should be separated with an underscore: `my_data`. 
@@ -45,7 +45,7 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
 - File names should be clear, concise and end in “.R”. If files need to be run sequentially, they should be named with numbers at the beginning: “_1-my_data.R_”, “_2-my_data.R_”  
 
 
-### Data Types and examples   
+## Data Types and examples   
 -  **Integers**: The Integer function must be evoked to declare an Integer in R: `q = as.integer(6)`
     - To determine whether something is an integer: `is.integer(q)`
 - **Character Data: R's version of Strings**: There are multiple ways to create a string in R.
@@ -69,7 +69,7 @@ A simple and effective method of coding in R is through RStudio. RStudio allows 
         - `plants <- c("desert"="cactus", "mountain"="fern", "tropical"="lime tree")`
         - adding new pairs to a list dictionary: `plants["sea"] <- "seaweed"`
 
-### General Discussion  
+## General Discussion  
 - R has 21 **keywords**, meaning these words are reserved and cannot be used for naming. Here's a few examples:
     - `if`, `else`, `while`, `for`, `break`, `next`, `repeat`,` NULL`, `TRUE`, `function`, `Inf`, `NA`, `in`, `NaN`
 - R has very loose **naming rules**, and variables can be named close to anything. See "naming conventions" above, however, for stylistic tips.
