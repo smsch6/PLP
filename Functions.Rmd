@@ -1,0 +1,87 @@
+---
+title: "Functions"
+output:
+  pdf_document: default
+  html_document: default
+date: "2023-11-08"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This demonstrates basic function creation using the "function" keyword:
+
+```{r}
+basic_function <- function(){
+  print("Hello world")
+}
+#Call the function:
+basic_function() 
+```
+
+## This function takes in two numbers, multiplies them, and returns the output:
+
+```{r}
+multiply_function <- function(x, y) {
+  x*y
+}
+multiply_function(2, 4)
+```
+
+## This is a simple recursive function that calculates a factorial:
+
+```{r}
+factorial_function <- function(x) {
+  if(x==0)
+    return (1)
+  else
+    return (x * factorial (x-1)) 
+}
+
+factorial_function(9)
+```
+
+
+## The functions below take string input and split it by regexes and delimiters, then return the results. 
+
+- There is a built-in function in R called `strsplit()` designed specifically to split strings. 
+
+- A common format for this function is: `strsplit(input string, split = "regex or delimiter")`
+
+```{r}
+#Split by spaces: 
+simple_string <- ("R is a language")
+split_by_spaces <- strsplit(simple_string, split = " ")
+split_by_spaces
+
+#Split by dashes: 
+dates_list <- c("07-08-2001","12-06-1997","12-15-1965")
+split_by_dates <- strsplit(dates_list, split = "-")
+split_by_dates
+
+#Save output in a more presentable format: 
+dates_mat <- matrix(unlist(split_by_dates), ncol=3, byrow=T)
+dates_mat
+
+```
+(The code in line 64 comes from [this](https://www.digitalocean.com/community/tutorials/strsplit-function-in-r) site.)
+
+
+## This function demonstrates that R is pass-by-value.
+
+
+```{r}
+#Create function to multiply the value of the argument by 10:
+change_original_value <- function(x) {
+  x <- 10*x
+  x
+}
+
+#Call the function, compare the temporarily changed value of `i` to the value of `i` stored in memory
+i <- 5
+new_i <- change_original_value(i)
+new_i
+i
+```
+
